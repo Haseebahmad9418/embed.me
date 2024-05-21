@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profolio | Embed.me</title>
+    <link rel="icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/portfolio.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="max-width">
+            <div class="top">
+                <div class="navbar">
+                    <nav>
+                        <ul class="sidebar">
+                            <li><a href="company.html">Company</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a id="text-logo" href="index.html">Embed.me</a></li>
+                            <li class="hideOnmobile"><a href="company.html">Company</a></li>
+                            <li class="hideOnmobile"><a href="services.html">Services</a></li>
+                            <li class="hideOnmobile"><a href="portfolio.html">Portfolio</a></li>
+                            <li class="hideOnmobile"><a href="blog.html">Blog</a></li>
+                            <li class="hideOnmobile"><a href="news.html">News</a></li>
+                            <li class="hideOnmobile"><a href="contact.html">Contact</a></li>
+                            <li class="menubtn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-container">
+                    <div class="col-one">
+                        <a href="company.html">Company</a>
+                        <a href="services.html">Services</a>
+                    </div>
+                    <div class="col-two">
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="blog.html">Blog</a>
+                    </div>
+                    <div class="col-three">
+                        <a href="news.html">News</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const sidebar = document.querySelector('.sidebar');
+        function showSidebar(){
+            console.log("sdceed", sidebar.style.display)
+            if(sidebar.style.display === 'block'){
+                sidebar.style.display = 'none';
+            }
+            else{
+                sidebar.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
