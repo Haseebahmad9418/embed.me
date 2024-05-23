@@ -86,7 +86,80 @@ nav li:first-child{
 .menubtn{
     display: none;
 }
+.img-wrapper{
+    height: 200px;
+    margin: 20px;
+    /* margin-top: 100px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+.img-wrapper{
+    h2{
+        margin: 20px;
+        line-height: 30px;
+    }
+    p{
+        margin: 20px;
+        line-height: 20px;
+    }
+}
 
+.card-container{
+    margin-inline: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline:  auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card{
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 15px;
+}
+.card-img{
+    height: 128px;
+    width: 250px;
+    margin: 15px auto 5px auto;
+}
+.card-title{
+    word-wrap: break-word;
+    top: 0px;
+    height: 60px;
+    margin-inline: 10px;
+    margin-top: 15px;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    line-height: 20px;
+    justify-content: center;
+}
+.card-description{
+    margin-block: 5px;
+    margin-top: 10px;
+    margin-inline: 20px;
+    word-wrap: break-word;
+    height: 360px;
+    font-size: 16px;
+    text-align: left;
+    align-items: left;
+    align-content: flex-start;
+    justify-content: left;
+    line-height: 22px;
+}
 .footer{
     color: #000000;
     background-color: rgba(255, 255, 255, 0.9);
@@ -113,7 +186,7 @@ nav li:first-child{
     display: block;
     color: #000;
     text-decoration: underline;
-    margin: 15px 5px;    
+    margin: 15px 5px;
     line-height: 15px;
     font-size: 12px;
     font-weight: 1000;
@@ -129,6 +202,7 @@ nav li:first-child{
     .menubtn{
         display: block;
     }
+    
 }
 @media(max-width: 500px){
     .sidebar{
@@ -138,6 +212,12 @@ nav li:first-child{
         font-size: 26px;
         font-style: italic;
         font-weight: 550;
+    }
+    .top{
+        height: 350px;
+    }
+    .img-wrapper{
+        height: 300px;
     }
     .navbar{
         top: 0px;
