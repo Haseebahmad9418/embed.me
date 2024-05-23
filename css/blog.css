@@ -86,6 +86,56 @@ nav li:first-child{
 .menubtn{
     display: none;
 }
+.card-container{
+    margin-inline: auto;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline:  auto;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card{
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    height: 435px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 15px;
+}
+.card-img{
+    height: 64px;
+    width: 64px;
+    margin: 15px auto 5px auto;
+}
+.card-title{
+    word-wrap: break-word;
+    top: 0px;
+    height: 60px;
+    margin-inline: 10px;
+    margin-top: 15px;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.card-description{
+    margin-block: 5px;
+    margin-inline: 20px;
+    word-wrap: break-word;
+    height: 260px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    align-content: top;
+    justify-content: center;
+}
+
 
 .footer{
     color: #000000;
@@ -114,8 +164,10 @@ nav li:first-child{
     color: #000;
     text-decoration: underline;
     margin: 15px 5px;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 1000;
+    font-style: oblique;
 }
 .footer a:hover{
     color: #808080;
