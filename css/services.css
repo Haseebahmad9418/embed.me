@@ -89,17 +89,18 @@ nav li:first-child{
 .img-wrapper{
     height: 200px;
     margin: 20px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     justify-content: center;
     align-items: center;
     text-align: center;
     align-content: center;
     align-self: center;
     line-height: 20px;
-    font-size: 18px;
+    
 }
 .img-wrapper{
     h2{
+        font-size: 22px;
         margin: 20px;
         line-height: 30px;
     }
@@ -245,10 +246,10 @@ nav li:first-child{
     .top{
         height: 350px;
     }
-    .img-wrapper{
+    /* .img-wrapper{
         margin: 10px;
         margin-top: 90px;
-    }
+    } */
     .styling-svg {
         width: 40%;
     }

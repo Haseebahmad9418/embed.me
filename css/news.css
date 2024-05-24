@@ -96,10 +96,10 @@ nav li:first-child{
     align-content: center;
     align-self: center;
     line-height: 20px;
-    font-size: 18px;
 }
 .img-wrapper{
     h2{
+        font-size: 22px;
         margin: 20px;
         line-height: 30px;
     }
@@ -213,12 +213,12 @@ nav li:first-child{
         font-style: italic;
         font-weight: 550;
     }
-    .top{
+    /* .top{
         height: 350px;
     }
     .img-wrapper{
         height: 300px;
-    }
+    } */
     .navbar{
         top: 0px;
     }
